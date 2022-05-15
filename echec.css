@@ -1,3 +1,9 @@
+/**Définition du display grid
+*Création d'un display grid
+*Width va définir la largeur de la boîte du contenu, ici 80% 
+*Puis en divisant la box par 12,5% car 8 colonnes
+*On rajoute ensuite une bordure fine en noir
+**/
 .echecGrid{
   display: grid;
   width: 80%;
@@ -6,7 +12,10 @@
   box-sizing: border-box;
   border: 2px solid black;
 }
-
+  /**Coloration des cases
+  *Alternance des cases avec une case noir puis une case blanche 
+  *Tout cela s'implémente avec nth-child pour chaque ligne
+  **/
   .a:nth-child(-n+8):nth-child(odd) {
   background-color: gray;
   color: #000;
@@ -39,7 +48,9 @@
     background-color: gray;
     color: #000;
   }
-
+  /**Mise en place des images 
+  *On a crée des classes dans l'html pour chaque images 
+  **/
   .tour_blanc {
     background-image: url(/images/blanc-tour.gif);
     background-repeat: no-repeat;
@@ -123,7 +134,3 @@
     background-position-x: center;
     background-position-y: center;
   }
-
-
-
-    
