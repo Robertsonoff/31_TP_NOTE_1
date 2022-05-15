@@ -1,0 +1,129 @@
+.echecGrid{
+  display: grid;
+  width: 80%;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+  .a:nth-child(-n+8):nth-child(odd) {
+  background-color: gray;
+  color: #000;
+  }
+  .a:nth-child(n+9):nth-child(-n+16):nth-child(even) {
+    background-color:gray;
+    color: #000;
+  }
+  .a:nth-child(n+17):nth-child(-n+24):nth-child(odd) {
+    background-color: gray;
+    color: #000;
+  }
+  .a:nth-child(n+25):nth-child(-n+32):nth-child(even) {
+    background-color: gray;
+    color: #000;
+  }
+  .a:nth-child(n+33):nth-child(-n+40):nth-child(odd) {
+    background-color: gray;
+    color: #000;
+  }
+  .a:nth-child(n+41):nth-child(-n+48):nth-child(even) {
+    background-color: gray;
+    color: #000;
+  }
+  .a:nth-child(n+49):nth-child(-n+56):nth-child(odd) {
+    background-color: gray;
+    color: #000;
+  }
+  .a:nth-child(n+57):nth-child(-n+64):nth-child(even) {
+    background-color: gray;
+    color: #000;
+  }
+
+  .tour_blanc {
+    background-image: url(/images/blanc-tour.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  .cavalier_blanc {
+    background-image: url(/images/blanc-cavalier.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  .fou_blanc {
+    background-image: url(/images/blanc-fou.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+       
+  .reine_blanc {
+    background-image: url(/images/blanc-reine.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  .roi_blanc {
+    background-image: url(/images/blanc-roi.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  .pion_blanc {
+    background-image: url(/images/blanc-pion.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  .tour_noir {
+    background-image: url(/images/noir-tour.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+       
+  .cavalier_noir {
+    background-image: url(/images/noir-cavalier.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+       
+  .fou_noir {
+    background-image: url(/images/noir-fou.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+               
+  .reine_noir {
+    background-image: url(/images/noir-reine.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+       
+  .roi_noir {
+    background-image: url(/images/noir-roi.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+       
+  .pion_noir {
+    background-image: url(/images/noir-pion.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+
+
+    
