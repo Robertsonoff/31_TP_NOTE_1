@@ -2,6 +2,8 @@
 
 De GEORGES Elian et ROBERT Théo, ING3
 
+liens github : https://github.com/Robertsonoff/31_TP_NOTE_1
+
 Pour la partie I plateau de jeu : 
 
 Utilisation d'un display grid :
